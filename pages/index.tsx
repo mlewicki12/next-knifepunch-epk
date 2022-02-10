@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/knifepunch.png' />
       </Head>
 
-      <main className='w-1/2 h-full'>
+      <main className='w-1/2 h-full grid grid-cols-2'>
         <Header
           image='/gammagirl.png'
           artist='GammaGIRL'
