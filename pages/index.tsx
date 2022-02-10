@@ -7,6 +7,14 @@ import Profile from '../components/profile'
 import SoundCloud from '../components/soundcloud'
 
 const Home: NextPage = () => {
+  const socials = {
+    instagram: 'https://www.instagram.com/koolgammagirl/',
+    twitter: 'https://twitter.com/koolgammagirl',
+    tiktok: 'https://www.tiktok.com/@koolgammagirl',
+    spotify: 'https://open.spotify.com/artist/12wxb0rncHIQ0WZUpxdEUl',
+    bandcamp: 'https://gammagirl.bandcamp.com/'
+  };
+
   return (
     <div className='w-full h-full flex justify-center'>
       <Head>
@@ -20,6 +28,7 @@ const Home: NextPage = () => {
           image='/gammagirl.png'
           artist='GammaGIRL'
           title='The Cult of Flesh and Blood'
+          socials={socials}
         />
 
         <Profile />

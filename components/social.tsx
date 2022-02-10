@@ -1,7 +1,8 @@
 
 import Image from 'next/image';
 
-export type Media = 'bandcamp' | 'facebook' | 'instagram' | 'myspace' | 'spotify' | 'tiktok' | 'twitter';
+export type Media = 'bandcamp' | 'facebook' | 'instagram'
+  | 'myspace' | 'spotify' | 'tiktok' | 'twitter';
 
 type Social = {
   media: Media;

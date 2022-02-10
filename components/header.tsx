@@ -1,15 +1,26 @@
 
 import Image from 'next/image';
-import Social from './social';
+import Social, { Media } from './social';
+
+export type Socials = {
+  bandcamp?: string;
+  facebook?: string;
+  instagram?: string;
+  myspace?: string;
+  spotify?: string;
+  tiktok?: string;
+  twitter?: string;
+}
 
 type Header = {
   image: string;
   artist: string;
   title: string;
+  socials: Socials;
 }
 
 const Header = ({
-  image, artist, title
+  image, artist, title, socials
 }: Header) => {
   return (
     <div className='col-span-2 p-4 w-full h-full flex justify-between border-b-2 border-black'>
@@ -21,14 +32,9 @@ const Header = ({
           <h2 className='text-xl text-right'>knifepunch records</h2>
         </div>
         <div className='flex justify-end'>
-          <Social media='bandcamp' link='' />
-          <Social media='facebook' link='' />
-          <Social media='instagram' link='' />
-          <Social media='myspace' link='' />
-          <Social media='spotify' link='' />
-          <Social media='tiktok' link='' />
-          <Social media='twitter' link='' />
-
+          {Object.keys(socials).map(key => socials[key as Media] !== '' && ( 
+            <Social key={key} media={key as Media} link={socials[key as Media]!} />
+           ))}
         </div>
       </div>
     </div>
