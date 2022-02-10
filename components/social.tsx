@@ -12,8 +12,8 @@ const Social = ({
   media, link
 }: Social) => {
   return (
-    <a href={link}>
-      <Image height={128} width={128} 
+    <a href={link} target='_blank' className='hover:animate-bounce'>
+      <Image height={64} width={64} 
         src={`/socials/${media}.png`} alt={`${media}:${link}`} />
     </a>
   );

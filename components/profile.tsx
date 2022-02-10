@@ -8,7 +8,7 @@ const Profile = () => {
       <TabList className='mb-0'>
         <Tab>Bio</Tab>
         <Tab>Album</Tab>
-        <Tab>Something</Tab>
+        <Tab>Contact</Tab>
       </TabList>
 
       <TabPanel>
