@@ -13,7 +13,7 @@ const Profile = () => {
       </TabList>
 
       <TabPanel>
-        <div className='p-2'>
+        <div className='p-2 bg-white border border-gray-400 rounded-md rounded-tl-none'>
           On their debut LP, Build and Burn, Gutless balances a searing indie punk rage with an exuberant, unyielding dedication to self-expression. The album&apos;s heavier moments meet trauma and marginalization with a stubborn, scorching resistance. “The Bitch Lives”, the first full song of the LP, encapsulates this attitude, responding to a cruel world not just with melancholy but with a spiteful celebration of survival. In its more joyful moments, the LP pays earnest tribute to the strange ephemeral delight of being part of a music scene. Folk punk sing-along “Hope I Don&apos;t Blow Out My Voice” celebrates the power of music and community with triumphant snark, accentuated by glockenspiel, fiddle, and gang vocals. The LP is framed in the context of a DIY show, with interludes titled “Load-In” and “Doors”. The closing track, entitled “Mystery Set”, tackles the dissonance of the lively queer punk scene in Gainesville, a notorious college sports town, and references a song by Florida indie punk contemporaries Insignificant Other. Build and Burn is peppered with features from other bands in the area, such as Jeremy Hunter of JER and Skatune Network, Candice Maritato of Woolbright, Briana Uknowit of Cooper! and George Geanuracos of Atlanta&apos;s Yankee Roses. The result is a sonic snapshot of the local punk community, giving authenticity to Gutless&apos; lyrical tributes to the scene.
 
           <span className='text-small font-bold'>&nbsp;- Blurb by Jamie Conroy</span>
@@ -21,7 +21,7 @@ const Profile = () => {
       </TabPanel>
 
       <TabPanel>
-        <div className='p-2'>
+        <div className='p-2 bg-white border border-gray-400 rounded-md'>
           Vi Viana - vocals, guitar, organ, piano, synthesizers, glockenspiel, bass (on track 6) <br />
           Maxim Moritz - lead guitar<br />
           Andrew Martin - bass<br />
@@ -50,7 +50,7 @@ const Profile = () => {
       </TabPanel>
 
       <TabPanel>
-        <div className='p-2'>
+        <div className='p-2 bg-white border border-gray-400 rounded-md'>
           <a href='https://drive.google.com/drive/folders/1T5XoREt6ib8zTttVccGoYi5QMfLr3tB8' target='_blank' rel='noreferrer noopener'>
             <Image height={400} width={710} src='/gutless - photo.PNG' alt='Gutless photo - Vi playing a guitar' />
           </a>
