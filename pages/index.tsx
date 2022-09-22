@@ -19,11 +19,16 @@ const Home: NextPage = () => {
     <div className='w-full h-full flex justify-center'>
       <Head>
         <title>Gutless - Build and Burn</title>
-        <meta name='description' content='Knifepunch Records EPK - Gutless - Build and Burn' />
+        <meta name='description' content='Knifepunch Records EPK' />
         <link rel='icon' href='/knifepunch.png' />
+
+        <meta property='og:image' content='/gutless - profile.PNG' key='ogimage' />
+        <meta property='og:title' content='Gutless - Build and Burn' key='ogtitle' />
+        <meta property='og:site_name' content='Knifepunch Records' key='ogsitename' />
+        <meta property='og:description' content='Out Oct. 14th on Knifepunch Records' key='ogdesc' />
       </Head>
 
-      <main className='w-full xl:w-1/2 h-full grid grid-cols-2'>
+      <main className='w-full xl:w-2/3 h-full grid grid-cols-2'>
         <Header
           image='/gutless - profile.PNG'
           artist='Gutless'

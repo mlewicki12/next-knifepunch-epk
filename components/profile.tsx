@@ -30,7 +30,9 @@ const Profile = () => {
           Jeremy Hunter (JER / Skatune Network) - trombone, trumpet, and tenor saxophone (track 3)<br />
           George Geanuracos (Yankee Roses) - violin (tracks 5, 6, 7, 9 and 10), vocals (track 5)<br />
           Candice Maritato (Woolbright) - vocals (track 5 and 10)<br />
-          Brianna Uknowit (Cooper!) - mandolin and vocals (track 6)<br /><br />
+          Brianna Uknowit (Cooper!) - mandolin and vocals (track 6)<br />
+          Rob McGregor - singing saw (track 1)<br /><br />
+
 
           Mixed and mastered by Josie Lucido<br />
           Initial recording by Rob McGregor at Goldentone Studio<br />
