@@ -13,7 +13,7 @@ const SoundCloud = ({
   link,
 }: SoundCloud) => {
   return (
-    <div className='w-full p-2'>
+    <div className='w-full p-2 col-span-2 md:col-span-1'>
       <iframe width="100%" height="600" scrolling="no" frameBorder="no" allow="autoplay"
         src={ src }>
       </iframe>

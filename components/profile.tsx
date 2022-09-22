@@ -5,7 +5,7 @@ import 'react-tabs/style/react-tabs.css';
 
 const Profile = () => {
   return (
-    <Tabs className='p-2'>
+    <Tabs className='p-2 col-span-2 md:col-span-1'>
       <TabList className='mb-0'>
         <Tab>Album</Tab>
         <Tab>Liner notes</Tab>
