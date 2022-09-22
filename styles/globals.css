@@ -7,3 +7,7 @@ body {
   background-image: url(/papyrus.png);
   background-repeat: repeat;
 }
+
+a {
+  text-decoration: underline;
+}
